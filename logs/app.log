@@ -1,0 +1,63 @@
+04:16:47.549 [main] INFO  tests.BaseClass - calling ConfigLoaderUtil.getProperty(key) method and passing key=browser to get browser name to be used for testing.
+04:16:47.552 [main] INFO  utilities.ConfigLoaderUtil - loading properties from config.properties file in src/test/resources/
+04:16:47.553 [main] INFO  utilities.ConfigLoaderUtil - In loadProperties reading the config file into input stream
+04:16:47.553 [main] INFO  utilities.ConfigLoaderUtil - loading properties inot properties object
+04:16:47.553 [main] INFO  tests.BaseClass - Config file has browser = chrome
+04:16:47.554 [main] INFO  tests.BaseClass - Using switch statement to initialize the driver object with browser chrome
+04:16:49.014 [main] INFO  tests.BaseClass - Chrome Driver initialized
+04:16:49.021 [main] INFO  tests.BaseClass - After Driver initialization waiting for 1 sec
+04:16:49.021 [main] INFO  tests.BaseClass - Getting initial URL to start testing
+04:16:54.040 [main] INFO  tests.LoginPageTest - Created new instance of Login POM
+04:16:54.040 [main] INFO  tests.LoginPageTest - Getting username and password from resources/config/properties, and passing to login method in Login Page POM
+04:16:54.295 [main] INFO  pom.LoginPage - username entered
+04:16:54.388 [main] INFO  pom.LoginPage - password entered
+04:16:54.389 [main] INFO  pom.LoginPage - Selecting Login Button
+04:16:54.534 [main] INFO  tests.LoginPageTest - If username and password is correct then driver holds HomePage URL
+04:16:54.535 [main] INFO  tests.LoginPageTest - Created new instance of HomePage POM using driver
+04:16:55.784 [main] INFO  tests.LoginPageTest - AssertEquals HomePage Title to check if we had successfully logged into Home Page
+04:16:55.796 [main] INFO  tests.LoginPageTest - Successful Login.
+04:16:55.797 [main] INFO  tests.LoginPageTest - Taking screen shot of the home page.
+04:16:56.121 [main] INFO  utilities.ScreenshotUtil - Screenshot saved 
+04:16:56.121 [main] INFO  tests.LoginPageTest - adding test case entry into extent reports.
+23:01:22.346 [main] INFO  tests.BaseClass - calling ConfigLoaderUtil.getProperty(key) method and passing key=browser to get browser name to be used for testing.
+23:01:22.350 [main] INFO  utilities.ConfigLoaderUtil - loading properties from config.properties file in src/test/resources/
+23:01:22.350 [main] INFO  utilities.ConfigLoaderUtil - In loadProperties reading the config file into input stream
+23:01:22.358 [main] INFO  utilities.ConfigLoaderUtil - loading properties inot properties object
+23:01:22.358 [main] INFO  tests.BaseClass - Config file has browser = chrome
+23:01:22.358 [main] INFO  tests.BaseClass - Using switch statement to initialize the driver object with browser chrome
+23:01:25.692 [main] INFO  tests.BaseClass - Chrome Driver initialized
+23:01:25.702 [main] INFO  tests.BaseClass - After Driver initialization waiting for 1 sec
+23:01:25.702 [main] INFO  tests.BaseClass - Getting initial URL to start testing
+23:01:27.641 [main] INFO  tests.LoginPageTest - Created new instance of Login POM
+23:01:27.642 [main] INFO  tests.LoginPageTest - Getting username and password from resources/config/properties, and passing to login method in Login Page POM
+23:01:27.780 [main] INFO  pom.LoginPage - username entered
+23:01:27.897 [main] INFO  pom.LoginPage - password entered
+23:01:27.897 [main] INFO  pom.LoginPage - Selecting Login Button
+23:01:28.946 [main] INFO  tests.LoginPageTest - If username and password is correct then driver holds HomePage URL
+23:01:28.946 [main] INFO  tests.LoginPageTest - Created new instance of HomePage POM using driver
+23:01:29.235 [main] INFO  tests.LoginPageTest - AssertEquals HomePage Title to check if we had successfully logged into Home Page
+23:01:29.247 [main] INFO  tests.LoginPageTest - Successful Login.
+23:01:29.248 [main] INFO  tests.LoginPageTest - Taking screen shot of the home page.
+23:01:29.531 [main] INFO  utilities.ScreenshotUtil - Screenshot saved 
+23:01:29.531 [main] INFO  tests.LoginPageTest - adding test case entry into extent reports.
+23:46:58.697 [main] INFO  tests.BaseClass - calling ConfigLoaderUtil.getProperty(key) method and passing key=browser to get browser name to be used for testing.
+23:46:58.700 [main] INFO  utilities.ConfigLoaderUtil - loading properties from config.properties file in src/test/resources/
+23:46:58.700 [main] INFO  utilities.ConfigLoaderUtil - In loadProperties reading the config file into input stream
+23:46:58.707 [main] INFO  utilities.ConfigLoaderUtil - loading properties inot properties object
+23:46:58.707 [main] INFO  tests.BaseClass - Config file has browser = chrome
+23:46:58.708 [main] INFO  tests.BaseClass - Using switch statement to initialize the driver object with browser chrome
+23:47:00.528 [main] INFO  tests.BaseClass - Chrome Driver initialized
+23:47:00.540 [main] INFO  tests.BaseClass - After Driver initialization waiting for 1 sec
+23:47:00.540 [main] INFO  tests.BaseClass - Getting initial URL to start testing
+23:47:02.375 [main] INFO  tests.LoginPageTest - Created new instance of Login POM
+23:47:02.375 [main] INFO  tests.LoginPageTest - Getting username and password from resources/config/properties, and passing to login method in Login Page POM
+23:47:02.627 [main] INFO  pom.LoginPage - username entered
+23:47:02.768 [main] INFO  pom.LoginPage - password entered
+23:47:02.770 [main] INFO  pom.LoginPage - Selecting Login Button
+23:47:03.746 [main] INFO  tests.LoginPageTest - If username and password is correct then driver holds HomePage URL
+23:47:03.747 [main] INFO  tests.LoginPageTest - Created new instance of HomePage POM using driver
+23:47:04.050 [main] INFO  tests.LoginPageTest - AssertEquals HomePage Title to check if we had successfully logged into Home Page
+23:47:04.062 [main] INFO  tests.LoginPageTest - Successful Login.
+23:47:04.063 [main] INFO  tests.LoginPageTest - Taking screen shot of the home page.
+23:47:04.373 [main] INFO  utilities.ScreenshotUtil - Screenshot saved 
+23:47:04.373 [main] INFO  tests.LoginPageTest - adding test case entry into extent reports.
